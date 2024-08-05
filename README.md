@@ -14,11 +14,11 @@ Avec une interface utilisateur moderne et intuitive, vous pouvez facilement ajou
 
 ## 🚀 Fonctionnalités
 
-- Ajouter des tâches ✏️ : Entrez une nouvelle tâche et cliquez sur le bouton pour l'ajouter à votre liste.   
-- Marquer comme complètes ✅ : Cliquez sur le bouton de validation pour marquer une tâche comme complétée.   
-- Supprimer des tâches 🗑️ : Cliquez sur le bouton de suppression pour enlever une tâche de la liste.   
-- Filtrer les tâches 🔍 : Utilisez le menu déroulant pour afficher toutes les tâches, uniquement celles terminées ou celles à faire.   
-- Sauvegarde locale 💾 : Les tâches sont stockées dans le stockage local de votre navigateur, donc pas de souci si vous fermez la page !   
+- ✏️ Ajouter des tâches : Entrez une nouvelle tâche et cliquez sur le bouton pour l'ajouter à votre liste.   
+- ✅ Marquer comme complètes : Cliquez sur le bouton de validation pour marquer une tâche comme complétée.   
+- 🗑️ Supprimer des tâches : Cliquez sur le bouton de suppression pour enlever une tâche de la liste.   
+- 🔍 Filtrer les tâches : Utilisez le menu déroulant pour afficher toutes les tâches, uniquement celles terminées ou celles à faire.   
+- 💾 Sauvegarde locale : Les tâches sont stockées dans le stockage local de votre navigateur, donc pas de souci si vous fermez la page !   
   
 <br>
 <br>
@@ -27,7 +27,7 @@ Avec une interface utilisateur moderne et intuitive, vous pouvez facilement ajou
 
 Voici à quoi ressemble l'application :   
 
-[To Do List](https://gabriellepagnard.github.io/ToDoList.github.io/)   
+[To Do List 🙌](https://gabriellepagnard.github.io/ToDoList.github.io/)   
 
 <br>
 <br>
