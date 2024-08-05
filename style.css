@@ -1,147 +1,153 @@
+/* Réinitialisation des styles par défaut */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Style général du body */
 body {
-    background-image: linear-gradient(120deg, #000030, #4e51ec);
-    color: rgb(248, 255, 156);
-    font-family: "poppins", sans-serif;
-    min-height: 100vh;
+    background-image: linear-gradient(120deg, #000030, #4e51ec); /* Dégradé de fond */
+    color: rgb(248, 255, 156); /* Couleur du texte */
+    font-family: "Poppins", sans-serif; /* Police de caractères */
+    min-height: 100vh; /* Hauteur minimale pour couvrir toute la vue */
 }
 
+/* En-tête de la page */
 header {
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* Taille de police de l'en-tête */
+    text-align: center; /* Alignement du texte au centre */
+    padding: 1rem; /* Espacement interne */
 }
 
-header,
+/* Style du formulaire */
 form {
-    min-height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    min-height: 20vh; /* Hauteur minimale du formulaire */
+    display: flex; /* Utilisation de flexbox */
+    justify-content: center; /* Alignement horizontal au centre */
+    align-items: center; /* Alignement vertical au centre */
 }
 
+/* Style des inputs et boutons dans le formulaire */
 form input,
 form button {
-    padding: 0.5rem;
-    font-size: 2rem;
-    border: none;
-    background: white;
+    padding: 0.5rem; /* Espacement interne */
+    font-size: 2rem; /* Taille de police */
+    border: none; /* Suppression des bordures */
+    background: white; /* Fond blanc */
 }
 
+/* Style du bouton dans le formulaire */
 form button {
-    color: #04157b;
-    background: white;
-    cursor: pointer;
-    transition: all 0.3s ease;
+    color: #04157b; /* Couleur du texte */
+    background: white; /* Fond blanc */
+    cursor: pointer; /* Curseur en forme de main */
+    transition: all 0.3s ease; /* Effet de transition */
 }
 
-form button {
-    background:  white;
-    color:  #000030;
-}
-
+/* Style au survol du bouton */
 form button:hover {
-    background:  #000030;
-    color:  #899fff;
+    background: #000030; /* Changement de couleur de fond */
+    color: #899fff; /* Changement de couleur du texte */
 }
 
+/* Conteneur de la liste des tâches */
 .todo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex; /* Utilisation de flexbox */
+    justify-content: center; /* Alignement horizontal au centre */
+    align-items: center; /* Alignement vertical au centre */
 }
 
+/* Liste des tâches */
 .todo-list {
-    min-width: 30%;
-    list-style: none;
+    min-width: 30%; /* Largeur minimale de la liste */
+    list-style: none; /* Suppression des puces */
 }
 
+/* Style des éléments de la liste des tâches */
 .todo {
-    margin: 0.5rem;
-    background: white;
-    color: black;
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: all 0.5s ease;
+    margin: 0.5rem; /* Marge autour des éléments */
+    background: white; /* Fond blanc */
+    color: black; /* Couleur du texte */
+    font-size: 1.5rem; /* Taille de police */
+    display: flex; /* Utilisation de flexbox */
+    justify-content: space-between; /* Espacement entre les éléments */
+    align-items: center; /* Alignement vertical au centre */
+    transition: all 0.5s ease; /* Effet de transition */
 }
 
+/* Style des éléments de la tâche */
 .todo li {
-    flex: 1;
+    flex: 1; /* Flexibilité de l'élément */
 }
 
+/* Boutons de suppression et de complétion des tâches */
 .trash-btn,
 .complete-btn {
-    background: #b80303;
-    color: #010041;
-    border: none;
-    padding: 1rem;
-    cursor: pointer;
-    font-size: 1rem;
+    background: #b80303; /* Fond rouge pour la suppression */
+    color: #010041; /* Couleur du texte */
+    border: none; /* Suppression des bordures */
+    padding: 1rem; /* Espacement interne */
+    cursor: pointer; /* Curseur en forme de main */
+    font-size: 1rem; /* Taille de police */
 }
 
 .complete-btn {
-    background: #00af00;
+    background: #00af00; /* Fond vert pour la complétion */
 }
 
-.todo-item {
-    padding: 0rem 0.5rem;
-}
-
-.fa-trash,
-.fa-check {
-    pointer-events: none;
-}
-
+/* Style pour les éléments de la tâche complétée */
 .completed {
-    text-decoration: line-through;
-    opacity: 0.5;
+    text-decoration: line-through; /* Texte barré */
+    opacity: 0.5; /* Réduction de l'opacité */
 }
 
+/* Style pour les éléments de la tâche en animation de suppression */
 .fall {
-    transform: translateY(8rem) rotateX('20deg');
-    opacity: 0;
+    transform: translateY(8rem) rotateX('20deg'); /* Effet de translation et de rotation */
+    opacity: 0; /* Opacité zéro */
 }
 
+/* Style du menu déroulant */
 select {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    outline: none;
-    box-shadow: none;
-    border: none;
+    -webkit-appearance: none; /* Suppression des styles par défaut sur WebKit */
+    -moz-appearance: none; /* Suppression des styles par défaut sur Mozilla */
+    appearance: none; /* Suppression des styles par défaut */
+    outline: none; /* Suppression du contour */
+    box-shadow: none; /* Suppression de l'ombre */
+    border: none; /* Suppression des bordures */
 }
 
+/* Conteneur pour le menu déroulant */
 .select {
-    margin: 1rem;
-    position: relative;
-    overflow: hidden;
+    margin: 1rem; /* Marge autour du conteneur */
+    position: relative; /* Position relative pour le pseudo-élément */
+    overflow: hidden; /* Suppression du débordement */
 }
 
+/* Style du menu déroulant */
 select {
-    color: #010041;
-    margin-left: 1rem;
-    width: 10rem;
-    cursor: pointer;
-    padding: 1rem;
+    color: #010041; /* Couleur du texte */
+    margin-left: 1rem; /* Marge à gauche */
+    width: 10rem; /* Largeur du menu */
+    cursor: pointer; /* Curseur en forme de main */
+    padding: 1rem; /* Espacement interne */
 }
 
+/* Style du chevron dans le menu déroulant */
 .select::after {
-    content: "\25BC";
-    position: absolute;
-    background: #010041;
-    top: 0;
-    right: 0;
-    padding: 1rem;
-    pointer-events: none;
-    transition: all 0.3s ease;
+    content: "\25BC"; /* Contenu du pseudo-élément */
+    position: absolute; /* Position absolue pour le chevron */
+    background: #010041; /* Fond du chevron */
+    top: 0; /* Position en haut */
+    right: 0; /* Position à droite */
+    padding: 1rem; /* Espacement interne */
+    pointer-events: none; /* Ignorer les événements du pointeur */
+    transition: all 0.3s ease; /* Effet de transition */
 }
 
+/* Style du chevron au survol */
 .select:hover::after {
-    background: white;
-    color: #010041;
+    background: white; /* Changement de fond au survol */
+    color: #010041; /* Changement de couleur du texte au survol */
 }
