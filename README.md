@@ -109,7 +109,7 @@ Gabrielle Pagnard 🧑‍💻 - Créatrice du projet
 Pour toute question ou suggestion, n'hésitez pas à me contacter :   
 
 Email : gpagnard@gmail.com   
-GitHub : GabriellePagnard   
+GitHub : [GabriellePagnard](https://github.com/GabriellePagnard)     
 
 <br>
 <br>
