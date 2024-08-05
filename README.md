@@ -27,7 +27,22 @@ Avec une interface utilisateur moderne et intuitive, vous pouvez facilement ajou
 
 Voici à quoi ressemble l'application :   
 
-[To Do List 🙌](https://gabriellepagnard.github.io/ToDoList.github.io/)   
+![screenshot vierge](ressources/screenshot_vierge.jpg)
+
+![screenshot taches](ressources/screenshot_certaines_taches_finies.jpg)
+
+![screenshot terminées](ressources/screenshot_filtrage_taches_terminéées.jpg)
+
+![screenshot à faire](ressources/screenshot_filtrage_taches_a_faire.jpg)
+
+[Démo vidéo du projet 🎥](https://www.youtube.com/watch?v=gEExBbF6ERY)
+
+<br>
+<br>
+
+## 🌐 Lien direct
+
+Pour l'utiliser : [To Do List 🙌](https://gabriellepagnard.github.io/ToDoList.github.io/)   
 
 <br>
 <br>
@@ -46,6 +61,7 @@ Voici à quoi ressemble l'application :
 - index.html : Le fichier HTML principal   
 - style.css : Les styles pour l'interface utilisateur   
 - app.js : Le script JavaScript pour la logique du projet    
+- ressources/ : Dossier contenant les images et les icônes (notamment les captures d'écran)   
 
 <br>
 <br>
